@@ -1,5 +1,6 @@
 import math
 
+
 def step_response(t: float, t_start: float, t_final: float, tau: float) -> float:
     """First-order response to a setpoint step at t = 0.
 

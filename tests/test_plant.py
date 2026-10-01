@@ -1,5 +1,7 @@
 import pytest
+
 from loopsim.plant import step_response
+
 
 def test_63_percent_at_tau():
     t_start, t_final, tau = 20.0, 30.0, 120.0
